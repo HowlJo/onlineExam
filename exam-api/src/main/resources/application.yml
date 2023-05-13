@@ -12,4 +12,6 @@ server:
     enabled: true
     min-response-size: 10
     mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css
+  tomcat:
+    max-http-post-size: 10MB
 
